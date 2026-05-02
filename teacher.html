@@ -18,7 +18,6 @@
   .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
   .card { display: block; background: var(--ink); border: 1px solid var(--border); border-radius: 16px; padding: 28px 24px; text-decoration: none; color: var(--text); transition: transform 0.3s, border-color 0.3s; }
   .card:hover { transform: translateY(-4px); border-color: var(--gold); }
-  .card.disabled { opacity: 0.4; pointer-events: none; }
   .card.featured { border-color: var(--gold); }
   .card-num { display: flex; justify-content: space-between; font-size: 12px; color: var(--gold); margin-bottom: 12px; letter-spacing: 2px; }
   .card-title { font-size: 22px; font-weight: 700; color: var(--cream); margin-bottom: 8px; }
@@ -46,30 +45,101 @@
     <a class="card featured" href="./01강_OpenClaw_풀코스/PPT/part-01.html?view=teacher">
       <div class="card-num"><span>CHAPTER 0</span><span>8m</span></div>
       <div class="card-title">인트로 · OpenClaw 왜 지금인가 + 면책</div>
-      <div class="card-desc">강사 노트: 시간 약속 + 솔직 면책 2가지 + 사업화 분기 미리 안내</div>
+      <div class="card-desc">시간 약속 + 솔직 면책 2가지 + 사업화 분기 미리 안내</div>
       <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
     </a>
 
-    <div class="card disabled">
+    <a class="card" href="./01강_OpenClaw_풀코스/PPT/part-02.html?view=teacher">
       <div class="card-num"><span>CHAPTER 1</span><span>25m</span></div>
       <div class="card-title">5분 만에 설치 (Mac/Win/Linux)</div>
       <div class="card-desc">시연 마커 5회 (OS 3종 + API 키 + 첫 응답)</div>
-      <div class="card-meta"><span>다음 회차</span></div>
-    </div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
 
-    <div class="card disabled">
-      <div class="card-num"><span>CHAPTER 2~12</span><span>—</span></div>
-      <div class="card-title">11개 챕터 잔여</div>
-      <div class="card-desc">다음 회차 batch 생성 예정 · 시연 마커 47회 분 단위 큐시트 작성됨</div>
-      <div class="card-meta"><span>큐시트 git에서 확인</span></div>
-    </div>
+    <a class="card" href="./01강_OpenClaw_풀코스/PPT/part-03.html?view=teacher">
+      <div class="card-num"><span>CHAPTER 2</span><span>20m</span></div>
+      <div class="card-title">첫 실행 · CLAW.md</div>
+      <div class="card-desc">시연 마커 3회 (위치·작성·효과)</div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
+
+    <a class="card" href="./01강_OpenClaw_풀코스/PPT/part-04.html?view=teacher">
+      <div class="card-num"><span>CHAPTER 3</span><span>25m</span></div>
+      <div class="card-title">AgentSkills 100개 카탈로그</div>
+      <div class="card-desc">시연 마커 2회 (skills list + favorite add)</div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
+
+    <a class="card" href="./01강_OpenClaw_풀코스/PPT/part-05.html?view=teacher">
+      <div class="card-num"><span>CHAPTER 4</span><span>25m</span></div>
+      <div class="card-title">메시징 자동화</div>
+      <div class="card-desc">시연 마커 5회 (Slack·Telegram·cron)</div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
+
+    <a class="card" href="./01강_OpenClaw_풀코스/PPT/part-06.html?view=teacher">
+      <div class="card-num"><span>CHAPTER 5</span><span>25m</span></div>
+      <div class="card-title">이메일 자동 처리</div>
+      <div class="card-desc">시연 마커 4회 (Gmail OAuth·라벨링·자동화·Drafts)</div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
+
+    <a class="card" href="./01강_OpenClaw_풀코스/PPT/part-07.html?view=teacher">
+      <div class="card-num"><span>CHAPTER 6</span><span>30m</span></div>
+      <div class="card-title">브라우저 + 코드 자동화</div>
+      <div class="card-desc">시연 마커 6회 (Playwright + 로컬 파일)</div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
+
+    <a class="card" href="./01강_OpenClaw_풀코스/PPT/part-08.html?view=teacher">
+      <div class="card-num"><span>CHAPTER 7</span><span>25m</span></div>
+      <div class="card-title">워크플로우 통합 · 체이닝</div>
+      <div class="card-desc">시연 마커 4회 (3-체이닝 + 5-체이닝)</div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
+
+    <a class="card featured" href="./01강_OpenClaw_풀코스/PPT/part-09.html?view=teacher" style="border-color:#ff8080">
+      <div class="card-num"><span style="color:#ff8080">CHAPTER 8 🛡️</span><span>30m</span></div>
+      <div class="card-title">보안 30분 · 차별점</div>
+      <div class="card-desc">시연 마커 5회 (통계·ClawHavoc·권한·화이트리스트·DefenseClaw)</div>
+      <div class="card-meta"><span style="color:#ff8080">📝 노트 표시</span><span>→</span></div>
+    </a>
+
+    <a class="card" href="./01강_OpenClaw_풀코스/PPT/part-10.html?view=teacher">
+      <div class="card-num"><span>CHAPTER 9</span><span>30m</span></div>
+      <div class="card-title">실전 자동화 1건 운영</div>
+      <div class="card-desc">시연 마커 6회 (morning-briefing 5단계 + 모니터링)</div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
+
+    <a class="card" href="./01강_OpenClaw_풀코스/PPT/part-11.html?view=teacher">
+      <div class="card-num"><span>CHAPTER 10 ⭐</span><span>15m</span></div>
+      <div class="card-title">사업화 ① · 개인 크리에이터</div>
+      <div class="card-desc">시연 마커 4회 (영상→블로그→카드뉴스→파이프)</div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
+
+    <a class="card" href="./01강_OpenClaw_풀코스/PPT/part-12.html?view=teacher">
+      <div class="card-num"><span>CHAPTER 11 ⭐</span><span>15m</span></div>
+      <div class="card-title">사업화 ② · 1인 마케팅</div>
+      <div class="card-desc">시연 마커 3회 (GHL 연결·5등급 분류·14일 시퀀스)</div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
+
+    <a class="card" href="./01강_OpenClaw_풀코스/PPT/part-13.html?view=teacher">
+      <div class="card-num"><span>CHAPTER 12 ⭐</span><span>15m</span></div>
+      <div class="card-title">사업화 ③ · 에이전시 B2B</div>
+      <div class="card-desc">시연 마커 4회 (3단 패키지·견적·온보딩·SLA)</div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
 
   </div>
 </section>
 
 <div class="footer">
   © 파자마보스 · 강사용 마스터 · 2026<br>
-  ⚠️ 절대 수강생 공유 X · `?view=teacher` URL 비공개
+  ⚠️ 절대 수강생 공유 X · `?view=teacher` URL 비공개<br>
+  📋 영상 큐시트: <a href="https://github.com/parkchaorm-create/openclo-fullcourse/blob/main/output/01강_OpenClaw_풀코스/영상_큐시트.md" target="_blank" style="color:var(--gold)">분 단위 시연 마커 47회</a>
 </div>
 
 </body>
