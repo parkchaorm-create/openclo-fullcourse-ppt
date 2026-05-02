@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>오픈클로 풀코스 — 강사용 마스터 (비공개) [파자마보스]</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+<link rel="stylesheet" href="./assets/common.css">
+<style>
+  body { background: var(--black); color: var(--text); padding: 40px 20px; font-family: 'Pretendard Variable', sans-serif; }
+  .hero { text-align: center; padding: 60px 20px 40px; }
+  .brand-pill { display: inline-block; padding: 8px 20px; border: 1px solid #ff6b6b; border-radius: 999px; color: #ff6b6b; font-size: 12px; letter-spacing: 5px; font-weight: 900; margin-bottom: 32px; }
+  .hero h1 { font-size: clamp(38px, 5.5vw, 86px); font-weight: 900; color: var(--cream); margin: 16px 0; }
+  .hero p.sub { font-size: clamp(16px, 1.4vw, 22px); color: var(--muted); max-width: 800px; margin: 16px auto; line-height: 1.6; }
+  .warning { background: rgba(255, 107, 107, 0.1); border: 1px solid #ff6b6b; padding: 16px 24px; border-radius: 8px; max-width: 800px; margin: 24px auto; color: #ff8080; font-size: 14px; }
+  .courses { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+  .courses h2 { font-size: 32px; color: var(--cream); margin-bottom: 24px; }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
+  .card { display: block; background: var(--ink); border: 1px solid var(--border); border-radius: 16px; padding: 28px 24px; text-decoration: none; color: var(--text); transition: transform 0.3s, border-color 0.3s; }
+  .card:hover { transform: translateY(-4px); border-color: var(--gold); }
+  .card.disabled { opacity: 0.4; pointer-events: none; }
+  .card.featured { border-color: var(--gold); }
+  .card-num { display: flex; justify-content: space-between; font-size: 12px; color: var(--gold); margin-bottom: 12px; letter-spacing: 2px; }
+  .card-title { font-size: 22px; font-weight: 700; color: var(--cream); margin-bottom: 8px; }
+  .card-desc { font-size: 14px; color: var(--muted); line-height: 1.5; }
+  .card-meta { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; font-size: 13px; color: var(--gold); }
+  .footer { text-align: center; padding: 60px 20px 40px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="brand-pill">⚠️ 강사 전용 · 비공개 ⚠️</div>
+  <h1>오픈클로 풀코스 강사 페이지</h1>
+  <p class="sub">강사 노트(노래방 모드) 자동 표시 · 시연 마커·녹화 가이드 포함</p>
+  <div class="warning">
+    🚫 본 페이지를 수강생에게 공유하지 마세요. <code>?view=teacher</code> URL은 강사 전용입니다.<br>
+    수강생에게 공유할 링크는 <a href="./index.html" style="color: var(--gold)">학생용 인덱스</a>에서 가져가세요.
+  </div>
+</section>
+
+<section class="courses">
+  <h2>📚 챕터 (강사용 · 강사 노트 표시)</h2>
+  <div class="card-grid">
+
+    <a class="card featured" href="./01강_OpenClaw_풀코스/PPT/part-01.html?view=teacher">
+      <div class="card-num"><span>CHAPTER 0</span><span>8m</span></div>
+      <div class="card-title">인트로 · OpenClaw 왜 지금인가 + 면책</div>
+      <div class="card-desc">강사 노트: 시간 약속 + 솔직 면책 2가지 + 사업화 분기 미리 안내</div>
+      <div class="card-meta"><span>📝 노트 표시</span><span>→</span></div>
+    </a>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 1</span><span>25m</span></div>
+      <div class="card-title">5분 만에 설치 (Mac/Win/Linux)</div>
+      <div class="card-desc">시연 마커 5회 (OS 3종 + API 키 + 첫 응답)</div>
+      <div class="card-meta"><span>다음 회차</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 2~12</span><span>—</span></div>
+      <div class="card-title">11개 챕터 잔여</div>
+      <div class="card-desc">다음 회차 batch 생성 예정 · 시연 마커 47회 분 단위 큐시트 작성됨</div>
+      <div class="card-meta"><span>큐시트 git에서 확인</span></div>
+    </div>
+
+  </div>
+</section>
+
+<div class="footer">
+  © 파자마보스 · 강사용 마스터 · 2026<br>
+  ⚠️ 절대 수강생 공유 X · `?view=teacher` URL 비공개
+</div>
+
+</body>
+</html>

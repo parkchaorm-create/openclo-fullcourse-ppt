@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>오픈클로(OpenClaw) A to Z 풀코스 — 파자마보스 [수강생용]</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+<link rel="stylesheet" href="./assets/common.css">
+<style>
+  body { background: var(--black); color: var(--text); padding: 40px 20px; font-family: 'Pretendard Variable', sans-serif; }
+  .hero { text-align: center; padding: 60px 20px 80px; }
+  .brand-pill { display: inline-block; padding: 8px 20px; border: 1px solid var(--gold); border-radius: 999px; color: var(--gold); font-size: 12px; letter-spacing: 5px; font-weight: 900; margin-bottom: 32px; }
+  .hero h1 { font-size: clamp(38px, 5.5vw, 86px); font-weight: 900; color: var(--cream); margin: 16px 0; letter-spacing: -0.02em; }
+  .hero p.sub { font-size: clamp(16px, 1.4vw, 22px); color: var(--muted); max-width: 800px; margin: 16px auto; line-height: 1.6; }
+  .stats { display: flex; justify-content: center; gap: 40px; margin-top: 40px; flex-wrap: wrap; }
+  .stat { text-align: center; }
+  .stat .num { font-size: 48px; font-weight: 900; color: var(--gold); display: block; }
+  .stat .label { font-size: 12px; color: var(--muted); letter-spacing: 2px; text-transform: uppercase; }
+  .courses { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+  .courses h2 { font-size: 32px; color: var(--cream); margin-bottom: 24px; }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
+  .card { display: block; background: var(--ink); border: 1px solid var(--border); border-radius: 16px; padding: 28px 24px; text-decoration: none; color: var(--text); transition: transform 0.3s, border-color 0.3s; position: relative; overflow: hidden; }
+  .card:hover { transform: translateY(-4px); border-color: var(--gold); }
+  .card.disabled { opacity: 0.4; pointer-events: none; }
+  .card.featured { border-color: var(--gold); }
+  .card-num { display: flex; justify-content: space-between; font-size: 12px; color: var(--gold); margin-bottom: 12px; letter-spacing: 2px; }
+  .card-title { font-size: 22px; font-weight: 700; color: var(--cream); margin-bottom: 8px; }
+  .card-desc { font-size: 14px; color: var(--muted); line-height: 1.5; }
+  .card-meta { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; font-size: 13px; color: var(--gold); }
+  .card-meta .star { font-size: 16px; }
+  .footer { text-align: center; padding: 60px 20px 40px; color: var(--muted); font-size: 13px; }
+  .footer a { color: var(--gold); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="brand-pill">파자마보스 · OPENCLAW A TO Z</div>
+  <h1>오픈클로 풀코스</h1>
+  <p class="sub">왕왕초보도 손가락만 움직이면 따라하는 · 설치부터 사업화까지 4시간 30분 풀강의</p>
+  <div class="stats">
+    <div class="stat"><span class="num">12</span><span class="label">챕터</span></div>
+    <div class="stat"><span class="num">4h 30m</span><span class="label">분량</span></div>
+    <div class="stat"><span class="num">3</span><span class="label">사업화 분기</span></div>
+    <div class="stat"><span class="num">347k+</span><span class="label">OpenClaw stars</span></div>
+  </div>
+</section>
+
+<section class="courses">
+  <h2>📚 챕터 (수강생용)</h2>
+  <div class="card-grid">
+
+    <a class="card featured" href="./01강_OpenClaw_풀코스/PPT/part-01.html?view=student">
+      <div class="card-num"><span>CHAPTER 0</span><span>8m</span></div>
+      <div class="card-title">인트로 · OpenClaw 왜 지금인가 + 면책</div>
+      <div class="card-desc">"Rise and Fall" 솔직 면책 + 4시간 약속 + 사업화 분기 미리 안내</div>
+      <div class="card-meta"><span>슬라이드 5장</span><span>→</span></div>
+    </a>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 1</span><span>25m</span></div>
+      <div class="card-title">5분 만에 설치 (Mac/Win/Linux)</div>
+      <div class="card-desc">OS 분기 · API 키 · 한 줄 스크립트</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 2</span><span>20m</span></div>
+      <div class="card-title">첫 실행 · CLAW.md 자동 생성</div>
+      <div class="card-desc">LLM 메모리 · 컨텍스트 폴더 구조</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 3</span><span>25m</span></div>
+      <div class="card-title">AgentSkills 100개 카탈로그 투어</div>
+      <div class="card-desc">8 카테고리 · 즐겨찾기 5개</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 4</span><span>25m</span></div>
+      <div class="card-title">메시징 자동화 (Slack·Telegram)</div>
+      <div class="card-desc">OAuth · 웹훅 · 자동 응답</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 5</span><span>25m</span></div>
+      <div class="card-title">이메일 자동 처리 (Gmail·Outlook)</div>
+      <div class="card-desc">라벨 · 필터 · 요약 · 답장</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 6</span><span>30m</span></div>
+      <div class="card-title">브라우저 + 코드 자동화</div>
+      <div class="card-desc">Playwright · 로컬 파일 편집</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 7</span><span>25m</span></div>
+      <div class="card-title">워크플로우 통합 · 3개 스킬 체이닝</div>
+      <div class="card-desc">트리거 · 핸드오프 · 에러 회복</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 8 🛡️</span><span>30m</span></div>
+      <div class="card-title">보안 30분 · 17~20% 악성 방어</div>
+      <div class="card-desc">차별점 챕터 · 권한 화이트리스트 1장</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 9</span><span>30m</span></div>
+      <div class="card-title">실전 자동화 1건 운영</div>
+      <div class="card-desc">본인 일상 자동화 설계·운영</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 10 ⭐</span><span>15m</span></div>
+      <div class="card-title">사업화 ① · 개인 크리에이터</div>
+      <div class="card-desc">콘텐츠 자동화 (영상→블로그·SNS)</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 11 ⭐</span><span>15m</span></div>
+      <div class="card-title">사업화 ② · 1인 마케팅</div>
+      <div class="card-desc">GHL 연동 · 리드·CRM 자동화</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+    <div class="card disabled">
+      <div class="card-num"><span>CHAPTER 12 ⭐</span><span>15m</span></div>
+      <div class="card-title">사업화 ③ · 에이전시 B2B</div>
+      <div class="card-desc">패키지 상품화 · 견적서 자동화</div>
+      <div class="card-meta"><span>다음 회차 생성 예정</span></div>
+    </div>
+
+  </div>
+</section>
+
+<div class="footer">
+  © 파자마보스 · OpenClaw A to Z 풀코스 · 2026<br>
+  도구: <a href="https://github.com/openclaw/openclaw" target="_blank">OpenClaw</a> · <a href="https://github.com/cisco/defenseclaw" target="_blank">DefenseClaw</a>
+</div>
+
+</body>
+</html>
