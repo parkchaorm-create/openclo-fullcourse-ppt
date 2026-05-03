@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
 <link rel="stylesheet" href="./assets/common.css">
 <style>
+  /* common.css overflow:hidden override · 인덱스는 스크롤 허용 */
+  html, body { height: auto !important; overflow: auto !important; }
   body { background: var(--black); color: var(--text); padding: 40px 20px; font-family: 'Pretendard Variable', sans-serif; }
   .hero { text-align: center; padding: 60px 20px 40px; }
   .brand-pill { display: inline-block; padding: 8px 20px; border: 1px solid #ff6b6b; border-radius: 999px; color: #ff6b6b; font-size: 12px; letter-spacing: 5px; font-weight: 900; margin-bottom: 32px; }
